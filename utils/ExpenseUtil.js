@@ -38,8 +38,8 @@ async function addExpense(req, res) {
 async function editExpense(req, res) {
     try {
         // Extracting parameters from the request
-        const id = req.params.id;
-        const name = req.body.name;
+        const id = req.params.id
+        const name = req.body.name
         const description = req.body.description;
         const amount = req.body.amount;
         const category = req.body.category;
